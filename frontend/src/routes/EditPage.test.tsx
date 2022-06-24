@@ -1,4 +1,5 @@
 import {waitFor} from "@testing-library/react";
+import exp from "constants";
 
 test('form is sent', async () => {
 //     jest.spyOn(axios, 'get').mockImplementation(() => {
@@ -26,5 +27,6 @@ test('form is sent', async () => {
 //
     await waitFor(() => {
 //         expect(screen.getByTestId('name-0').textContent).toEqual('Thomas');
+        expect(true).toBe(true);
     });
 });
