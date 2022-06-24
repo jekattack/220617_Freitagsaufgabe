@@ -1,5 +1,4 @@
 import axios from "axios";
-import Todo from "../service/model";
 import {fireEvent, render, screen, waitFor} from "@testing-library/react";
 import Form from "./Form";
 
