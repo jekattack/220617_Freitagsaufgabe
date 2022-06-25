@@ -1,6 +1,6 @@
 {
-  "short_name": "Todo App 3000",
-  "name": "Demo project to deploy front- and backend together",
+  "short_name": "CornerGame",
+  "name": "Demo project",
   "icons": [{
     "src": "smile.ico",
     "sizes": "64x64 32x32 24x24 16x16",

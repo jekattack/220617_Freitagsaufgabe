@@ -15,6 +15,15 @@ code {
     monospace;
 }
 
-button {
-  margin: 2px;
+.menu-wrapper{
+
+
+  background: white;
+  margin: 5%;
+  padding: 5%;
 }
+
+.map-wrapper{
+
+}
+

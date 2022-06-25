@@ -1,20 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {
-    BrowserRouter,
-    Routes,
-    Route} from "react-router-dom";
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MainPage from "./routes/MainPage";
-import EditPage from "./routes/EditPage";
+import {createGlobalStyle} from "styled-components";
+import App from "./App";
+
+const GlobalStyles = createGlobalStyle`
+  body {
+    margin: 0;
+  }
+`;
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
+      <GlobalStyles />
       <App />
   </React.StrictMode>
 );

@@ -1,0 +1,11 @@
+#menu-wrapper{
+    background-color: white;
+    padding: 5%;
+    margin: 5%;
+    text-align: center;
+}
+#menu-wrapper img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
